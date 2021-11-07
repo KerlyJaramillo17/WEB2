@@ -2,8 +2,8 @@
 
 var  mascota  =  new  Object ( ) ;
 
-mascota . nombre_mascota  =  'Zeus' ;
-mascota . edad_mascota  =  '3 Meses' ;
+mascota . nombre_mascota  =  'zeus' ;
+mascota . edad_mascota  =  '3 meses' ;
 mascota . color_mascota  =  'Negro y plomo' ;
 
 console.log(mascota);

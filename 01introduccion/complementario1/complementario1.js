@@ -11,4 +11,4 @@ function tabla(N)
         console.log(N + " x " + i + " = "+ (N * i ));
     }
 }
-tabla(8);
+tabla(9);

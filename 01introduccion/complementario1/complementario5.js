@@ -1,4 +1,5 @@
-/*Crear una función flecha que reciba un elemento del arreglo de comidas favoritas y lo devuelva en
+/*
+5.Crear una función flecha que reciba un elemento del arreglo de comidas favoritas y lo devuelva en
 mayúscula
 
 function Cambiar(texto){

@@ -1,7 +1,7 @@
 /*Definir un arreglo con sus comidas favoritas.*/
 
 const comidas = [
-    {id: 1, momento: 'Ceviche'},
+    {id: 1, momento: 'ceviche'},
     {id: 2, momento: 'Camaron apanado'},
     {id: 3, momento: 'Encebollado'},
     {id: 4, momento: 'Cazuela'},
