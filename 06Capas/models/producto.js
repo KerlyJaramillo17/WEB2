@@ -4,7 +4,7 @@ const ProductoSchema = Schema(
     {
         nombre:{
             type: String,
-            required: [ true, 'El nombre del producto es necesarios'],
+            required: [ true, 'El nombre del producto es necesario'],
             unique:true
         },
         estado:{

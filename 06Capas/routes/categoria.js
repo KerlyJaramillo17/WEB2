@@ -16,7 +16,7 @@ const router= Router();
 
 router.get('/', obtenerCategorias );
 router.get('/:id'
-,check('id', 'Este no es un ID de Mongo correcto').isMongoId()
+,check('id', 'Este no pertenece a un ID de Mongo correcto').isMongoId()
  , obtenerCategoria );
 
  router.post('/',[

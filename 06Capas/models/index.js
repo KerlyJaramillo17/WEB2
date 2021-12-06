@@ -1,4 +1,4 @@
-const Producto =  require('./productos');
+const Producto =  require('./producto');
 const Categoria =  require('./categoria');
 
 

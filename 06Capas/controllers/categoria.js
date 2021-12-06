@@ -6,7 +6,7 @@ const obtenerCategorias = async (req,res = response )=>{
     const { limite = 10 , desde=0 } =  req.query;
     const query = { estado:true };
 
-
+    
     const [ total, categorias ] = await Promise.all([
         Categoria.countDocuments(query),
         Categoria.find(query)
@@ -33,7 +33,7 @@ const crearCategoria = async(req,res=response)=>{
     if (existeCategoria)
     {
         return res.status(400).json({
-            msg:`La categoria ${ existeCategoria.nombre } ya no existe`
+            msg:`La categoria ${ existeCategoria.nombre } ya existe`
         })
     }
 
