@@ -18,7 +18,8 @@ window.addEventListener('load', function(){
     htmlGenerado+=`<div id="divcontenido"></div>`
     htmlCuerpo.innerHTML = htmlGenerado;
 
-    btnnuevo.addEventListener('click',function(){
+
+      btnnuevo.addEventListener('click',function(){
         txtid.value='';
         txtnombre.value='';
         txtprecio.value='';
