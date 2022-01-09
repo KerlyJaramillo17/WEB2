@@ -12,6 +12,7 @@ router.get('/', function(req, res, next) {
 });
 router.get('/producto/nuevo',(req,res,next)=>{
   res.render('productoForm', {})
+  
 })
 
 router.get('/producto/modificar/:id',(req,res,next)=>{
